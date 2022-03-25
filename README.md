@@ -1,24 +1,29 @@
-# README
+# PRUMアカデミー
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## ホームケアナビ作成用PJ
 
-Things you may want to cover:
+### 環境構築
+ - （初回）docker image build && db create
 
-* Ruby version
+```
+make create
+```
 
-* System dependencies
+- docker run
 
-* Configuration
+```
+make run
+```
 
-* Database creation
+#### 以下環境が立ち上がっていればOK
 
-* Database initialization
+ - http://localhost:3000
+ - http://localhost:80
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### 詳細情報
 
-* Deployment instructions
-
-* ...
+name|version
+--|--
+Ruby | 3.1.1
+Ruby on Rails | 7.0.2.3
