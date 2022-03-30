@@ -20,6 +20,12 @@ make run
  - http://localhost:3000
  - http://localhost:80
 
+#### pgadminログイン
+
+key|value
+--|--
+mail | pg@example.com
+password | pg-password
 
 ### 詳細情報
 
